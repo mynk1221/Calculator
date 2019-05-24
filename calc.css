@@ -1,0 +1,46 @@
+body{
+  height: 440px;
+  width: 400px;
+  margin: 50px 268px 30px 450px;
+  background-image:url("Mathematical-Symbols.jpg");
+}
+input{
+  width: 350px;
+  height:50px;
+  margin:25px 23px 25px 23px;
+  border: 2px solid darkgreen;
+  font-size: 25px;
+}
+
+button{
+  height: 40px;
+  width: 70px;
+  border: 1px solid purple;
+  margin-right: 18px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  border-radius: 15%;
+}
+
+.calc{
+  border: 1px solid white;
+  border-radius: 7%;
+  background-color: black;
+
+}
+.numbers{
+  color: red;
+  background-color: #ffe92b;;
+}
+.operator{
+  color: red;
+  background-color: #c3f6c5;;
+}
+span{
+  color: blue;
+}
+
+.Keys{
+  margin:25px 0px 25px 27px;
+  color: red;
+}
