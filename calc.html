@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>calculator</title>
+<link rel="stylesheet" href="C:\Users\Mayank\Desktop\CodeAsylums\Web Project\calculator.css">
+<body>
+</head>
+<body>
+<div class=" calc">
+  <input type="text" name="screen" id="screen">
+
+  <div class="Keys">
+    <div id="div0">
+      <button class="operator" id="clear" value="clear"  onclick="document.getElementById('screen').value = '';">C</button>
+      <button class="operator" id="hello" onclick="document.getElementById('screen').value =' ';">CE</button>
+      <button class="operator" id="nothing" onclick="document.getElementById('screen').value = parseInt(value);">-></button>
+      <button class="operator" id="percentage" value="%" onclick="document.getElementById('screen').value += '%';">%</button>
+    </div>
+    <div id="div1">
+      <button class="numbers" id="one" value="1" onclick="document.getElementById('screen').value += parseInt(value);">1</button>
+      <button class="numbers" id="two" value="2" onclick="document.getElementById('screen').value += parseInt(value);">2</button>
+      <button class="numbers" id="three" value="3" onclick="document.getElementById('screen').value += parseInt(value);">3</button>
+      <button class="operator" id="divide" value="/" onclick="document.getElementById('screen').value += '/';">/</button>
+    </div>
+    <div id="div2">
+      <button class="numbers" id="four" value="4" onclick="document.getElementById('screen').value += parseInt(value);">4</button>
+      <button class="numbers" id="five" value="5" onclick="document.getElementById('screen').value += parseInt(value);">5</button>
+      <button class="numbers" id="six" value="6" onclick="document.getElementById('screen').value += parseInt(value);">6</button>
+      <button class="operator" id="multiply" value="*" onclick="document.getElementById('screen').value += '*';">*</button>
+    </div>
+    <div id="div3">
+      <button class="numbers" id="seven" value="7" onclick="document.getElementById('screen').value += parseInt(value);">7</button>
+      <button class="numbers" id="eight" value="8" onclick="document.getElementById('screen').value += parseInt(value);">8</button>
+      <button class="numbers" id="nine" value="9" onclick="document.getElementById('screen').value += parseInt(value);">9</button>
+      <button class="operator" id="subtract" value="-" onclick="document.getElementById('screen').value += '-';">-</button>
+    </div>
+    <div id="div4">
+      <button class="operator" id="decimal" value="." onclick="document.getElementById('screen').value += '.';"><span>.</span></button>
+      <button class="numbers" id="zero" value="0" onclick="document.getElementById('screen').value += parseInt(value);">0</button>
+      <button class="operator" id="equals" value="=" onclick="document.getElementById('screen').value = eval(document.getElementById('screen').value);">=</button>
+      <button class="operator" id="add" value="+" onclick="document.getElementById('screen').value += '+';">+</button>
+    </div>
+  </div>
+</body>
+<script src="calculator.js"></script>
+
+
+</html>
